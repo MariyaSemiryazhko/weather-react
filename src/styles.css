@@ -60,18 +60,6 @@ h2 {
   border-radius: 6px;
 }
 
-.weather-result {
-  margin-top: 20px;
-  font-size: 32px;
-  font-weight: bold;
-  color: #f45905;
-  text-align: center;
-  background-color: #fff5ed;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
 .search:hover {
   background-color: #2a1a5e;
   color: #fbe555;

@@ -44,7 +44,7 @@ function App() {
           Open source code
         </a>{" "}
         by Mariya Semiryazhko 
-        <a href="https://genuine-begonia-c88d72.netlify.app/">on Netlify</a>
+        <a href="https://genuine-begonia-c88d72.netlify.app/"> on Netlify</a>
       </footer>
     </div>
   );
