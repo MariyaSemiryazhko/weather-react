@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FormattedDate from "./formattedDate";
 import axios from "axios";
 
 export default function Search(props) {
@@ -13,7 +14,7 @@ export default function Search(props) {
             description: response.data.condition.description,
             wind: response.data.wind.speed,
             icon: response.data.condition.icon_url,
-            date: "Thursday, 13.05"
+            date: new Date(response.data.time *1000)
         });
     }
 
@@ -36,7 +37,9 @@ export default function Search(props) {
                         <div className="row align-items-start">
                             <div className="col">
                                 <p id="place">{weatherData.city} </p>
-                                <div id="date">{weatherData.date}</div>
+                                <div id="date">
+                                    <FormattedDate date={weatherData.date}/>
+                                </div>
                                  
                                 <div>Temperature🌡️: {Math.round(weatherData.temperature)}°C</div>
                                 <div>
