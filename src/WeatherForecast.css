@@ -1,0 +1,24 @@
+:root {
+  --font-main: "Josefin Sans", sans-serif;
+  --color-primary: #2a1a5e;
+  --color-accent: #fbe555;
+  --color-secondary: #fb9224;
+  --color-light: #fdfdfd;
+  --color-muted: #777;
+  --color-border: #ddd;
+  --radius: 12px;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.weather-forecast {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.WeatherForecastTemperatureMin {
+  opacity: 0.6;
+  margin-left: 5px;
+}

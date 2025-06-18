@@ -110,14 +110,6 @@ input.search:hover {
   color: var(--color-secondary);
 }
 
-.weather-forecast {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-}
-
 footer {
   text-align: center;
 }
