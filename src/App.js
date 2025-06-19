@@ -9,11 +9,11 @@ export default function App() {
       <div className="container">
       <Search defaultCity="New York" />
     <footer>
-      <a href="https://github.com/MariyaSemiryazhko/weather-react">
+      <a href="https://github.com/MariyaSemiryazhko/weather-react" target="_blank" rel="noopener noreferrer" >
           Open source code
       </a>{" "}
       by Mariya Semiryazhko
-      <a href="https://genuine-begonia-c88d72.netlify.app/"> on Netlify</a>
+      <a href="https://genuine-begonia-c88d72.netlify.app/" target="_blank" rel="noopener noreferrer" > on Netlify</a>
     </footer>
     </div>
     </div>

@@ -25,9 +25,8 @@
 
 .forecastImg {
   display: block;
-  width: 160px;
-  height: 160px;
+  margin: 10px;
   object-fit: contain;
   position: relative;
-  left: -20px;
+  left: -30px;
 }
